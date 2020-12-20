@@ -5,8 +5,8 @@ def find_even_values(src)
     i2 = 0
     
     while i2 < src[i].length
-      if src[i].even?
-        puts src[i]
+      if src[i][i2].even?
+        puts src[i][i2]
       end
       i2 += 1
     end
